@@ -1,6 +1,8 @@
 function sortear () {
-    let qnt = document.getElementById('quantidade')
-    let começo = getElementById('de')
-    let fim = getElementById('ate')
+    let qnt = document.getElementById('quantidade').value
+    let começo = document.getElementById('de').value
+    let fim = document.getElementById('ate').value
+    alert(`quantidade de numeros ${qnt}`)
+    
 
 }
